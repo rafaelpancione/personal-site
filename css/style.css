@@ -1,0 +1,17 @@
+
+
+/* MENU LATERAL */
+
+.portifolio-sidebar{
+    height:100%;
+    width:100px;
+    background-color:rgb(201, 30, 30);
+    position:fixed!important;
+    z-index:1;
+    overflow:auto;
+}
+
+.portifolio-sidebar a{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
