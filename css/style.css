@@ -1,5 +1,4 @@
 /* RESET */
-/* -- reset -- */
 * {
 	box-sizing: border-box;
 	} 
@@ -7,6 +6,11 @@
 body, h1,h2,p,ul,li,a {
 	margin: 0px;
 	padding: 0px;
+    background: #f8f8f8;
+}
+
+ul{
+    list-style: none;
 }
 
 img {
@@ -20,19 +24,48 @@ img {
     margin: 0 auto;
 }
 
+/* MENU NAV */
+.menu-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.menu-nav a{
+    color: black;
+    padding: 10px;
+}
+
+/* CONTEUDO ESQUERDA */
+.left-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.left-content h1{
+    color: #bd454f;
+}
 
 /* MENU LATERAL */
 
 .portifolio-sidebar{
     height:100%;
     width:100px;
-    background-color:rgb(201, 30, 30);
+    background-color:#f8f8f8;
     position:fixed!important;
     z-index:1;
     overflow:auto;
+    box-shadow: 1px 0 1px rgba(0,0,0,0.11), 
+    2px 0 2px rgba(0,0,0,0.11), 
+    4px 0 4px rgba(0,0,0,0.11), 
+    6px 0 8px rgba(0,0,0,0.11),
+    8px 0 16px rgba(0,0,0,0.11);
 }
 
 .portifolio-sidebar a{
     writing-mode: vertical-rl;
-    text-orientation: upright;
+    text-orientation: sideways;
 }
+
+/* https://hashnode.com/post/30-web-developer-portfolios-to-inspire-you-cknfx6wdg069kxws1bjjv8mhw */
