@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Oxygen&display=swap');
+
 /* RESET */
 * {
 	box-sizing: border-box;
@@ -7,6 +9,10 @@ body, h1,h2,p,ul,li,a {
 	margin: 0px;
 	padding: 0px;
     background: #f8f8f8;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
 }
 
 ul{
@@ -45,13 +51,19 @@ img {
 
 .left-content h1{
     color: #bd454f;
+    font-family: 'Bevan', cursive;
+    font-size: 5rem;
+    line-height: 100%;
 }
 
 /* MENU LATERAL */
 
 .portifolio-sidebar{
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
     height:100%;
-    width:100px;
+    width:50px;
     background-color:#f8f8f8;
     position:fixed!important;
     z-index:1;
@@ -63,9 +75,22 @@ img {
     8px 0 16px rgba(0,0,0,0.11);
 }
 
-.portifolio-sidebar a{
-    writing-mode: vertical-rl;
+.btn-open{
+    writing-mode: vertical-lr;
     text-orientation: sideways;
+    font-family: 'Oxygen', sans-serif;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+   }
+
+.btn-open a::before{
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 30px;
+    background: #bd454f;
+    margin-bottom: 5px;
 }
 
 /* https://hashnode.com/post/30-web-developer-portfolios-to-inspire-you-cknfx6wdg069kxws1bjjv8mhw */

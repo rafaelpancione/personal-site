@@ -6,6 +6,6 @@ function openSideBar(){
 
 function closeSideBar(){
     document.querySelector('.js-portifolio').style.display = "block";
-    document.querySelector('.js-portifolio').style.width = "100px";
+    document.querySelector('.js-portifolio').style.width = "50px";
 }
 
