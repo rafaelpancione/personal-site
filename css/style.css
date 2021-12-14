@@ -6,12 +6,26 @@
 	} 
 
 body, h1,h2,p,ul,li,a {
-	margin: 0px;
+    margin: 0px;
 	padding: 0px;
     background: #f8f8f8;
 }
 
-p {
+button{
+    background-color: #252525; 
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 0.8rem;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: none;
+}
+
+p, h2, h3 {
     font-family: 'Oxygen', sans-serif;
 }
 
@@ -50,8 +64,8 @@ img {
 }
 
 .left-content h1{
-    color: #bd454f;
     font-family: 'Bevan', cursive;
+    color: #bd454f;
     font-size: 5rem;
     line-height: 100%;
 }
@@ -87,7 +101,7 @@ img {
 .btn-open a::before{
     content: '';
     display: inline-block;
-    width: 6px;
+    width: 5px;
     height: 30px;
     background: #bd454f;
     margin-bottom: 5px;
